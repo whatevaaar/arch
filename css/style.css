@@ -1,3 +1,7 @@
+  
+
+
+
 /* ------------------------------------------------------------------------------
 
   Template Name: Go.arch 
@@ -1564,6 +1568,7 @@ img.mfp-img{
 
 .experience{
   text-align: center;
+  margin-top: -8rem;
 }
 
 .text-parallax {
@@ -1808,6 +1813,12 @@ img.mfp-img{
 /* ------------------------------------------------------------------------------- */
 
 
+.client-logo{
+    max-width: 10rem;
+}
+.nosotros-icono{
+    width: 3rem;
+}
 
 /* 12.1 Min width 768px */
 
