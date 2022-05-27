@@ -541,7 +541,7 @@ label.error {
   line-height: 1;
   color: #000;
   position: absolute;
-  left: 0;
+  left: 18rem;
   top: 0.03em;
   opacity: 0.035;
   -webkit-transform: translate(-50%, -50%);
@@ -1705,7 +1705,7 @@ img.mfp-img {
 /* ------------------------------------------------------------------------------- */
 
 .client-logo {
-  min-height: 4rem;
+  min-height: 3rem;
   min-width: 7rem;
   max-width: 7rem;
   max-height: 6rem;
@@ -1898,7 +1898,6 @@ img.mfp-img {
 }
 
 .footer-logo {
-  min-height: 5rem;
   filter: grayscale(100%);
   max-width: 6rem;
   max-height: 5rem;
@@ -1911,4 +1910,18 @@ img.mfp-img {
 .footer-link:hover {
   text-decoration: none;
   color: orange;
+}
+.logo-footer-col {
+  margin-top: -5rem;
+}
+.social-footer-col {
+  margin-top: -1rem;
+}
+
+.body-text {
+  text-align: justify;
+  margin-top: -10rem;
+  padding-left: 4rem;
+  padding-right: 4rem;
+  padding-bottom: 4rem;
 }
