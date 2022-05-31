@@ -2011,7 +2011,7 @@ card-box p {
 }
 
 .nosotros-text {
-  font-size: 1.1rem;
+  font-size: 1rem;
   text-align: justify;
 }
 
@@ -2051,15 +2051,15 @@ card-box p {
 .owl-next,
 .owl-prev {
   color: black;
-  margin-top: -20rem;
+  margin-top: -21rem;
 }
 
 .owl-next {
-  margin-left: 13rem;
+  margin-left: 15rem;
 }
 
 .owl-prev {
-  margin-right: 13rem;
+  margin-right: 15rem;
 }
 
 #projects .owl-next,#projects .owl-prev{
