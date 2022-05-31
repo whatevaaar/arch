@@ -2051,15 +2051,15 @@ card-box p {
 .owl-next,
 .owl-prev {
   color: black;
-  margin-top: -16rem;
+  margin-top: -20rem;
 }
 
 .owl-next {
-  margin-left: 12rem;
+  margin-left: 13rem;
 }
 
 .owl-prev {
-  margin-right: 12rem;
+  margin-right: 13rem;
 }
 
 #projects .owl-next,#projects .owl-prev{
