@@ -1922,19 +1922,6 @@ img.mfp-img {
   padding-right: 4rem;
   padding-bottom: 4rem;
 }
-div.bhoechie-tab-container {
-  z-index: 10;
-  background-color: #ffffff;
-  padding: 0 !important;
-  margin-top: 20px;
-  margin-left: 50px;
-  -webkit-box-shadow: 0 6px 12px rgba(0, 0, 0, 0.175);
-  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.175);
-  -moz-box-shadow: 0 6px 12px rgba(0, 0, 0, 0.175);
-  background-clip: padding-box;
-  opacity: 0.97;
-  filter: alpha(opacity=97);
-}
 div.bhoechie-tab-menu {
   padding-right: 0;
   padding-left: 0;
@@ -2017,7 +2004,7 @@ a:hover h4 {
   border: 1px solid #eee;
   box-shadow: 0px 0px 8px 0px #d4d4d4;
   transition: 0.5s;
-  height: 45rem;
+  height: 35rem;
 }
 card-box p {
   color: #808080;
@@ -2041,4 +2028,22 @@ card-box p {
 }
 .nosotros-p{
 
+}
+@media screen and (max-width: 1400px){
+    .tp-fullwidth-forcer {
+    height: 260px !important;
+}
+#projects{
+  margin-top: -5rem;
+}
+.nosotros-img {
+  width: 100%;
+  height: 20vh;
+}
+}
+
+@media screen and (max-width: 500px){
+#projects{
+  margin-top: -10rem;
+}
 }
