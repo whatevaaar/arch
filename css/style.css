@@ -1881,7 +1881,7 @@ img.mfp-img {
   text-align: center;
 }
 .count-text {
-  font-size: 13px;
+  font-size: 1.3rem;
   font-weight: normal;
   margin-top: 10px;
   margin-bottom: 0;
@@ -2004,22 +2004,15 @@ a:hover h4 {
   border: 1px solid #eee;
   box-shadow: 0px 0px 8px 0px #d4d4d4;
   transition: 0.5s;
-  height: 35rem;
+  height: 43rem;
 }
 card-box p {
   color: #808080;
 }
 
 .nosotros-text {
-  font-size: 0.8rem;
-  visibility: hidden;
-  opacity: 0;
-  transition: visibility 0.3s linear, opacity 0.3s linear;
-}
-.card-box:hover .nosotros-text {
-  transition: opacity 1s ease-out;
-  visibility: visible;
-  opacity: 1;
+  font-size: 1.1rem;
+  text-align: justify;
 }
 
 .nosotros-img {
@@ -2046,17 +2039,29 @@ card-box p {
     margin-top: -25rem;
     margin-left: 20rem;
   }
-
-  .client-logo{
-    width: 7rem;
-  }
 }
 
 @media screen and (max-width: 900px) {
-
   .row-foot {
     margin-top: -15rem;
     margin-left: 15rem;
   }
 }
 
+.owl-next,
+.owl-prev {
+  color: black;
+  margin-top: -16rem;
+}
+
+.owl-next {
+  margin-left: 12rem;
+}
+
+.owl-prev {
+  margin-right: 12rem;
+}
+
+#projects .owl-next,#projects .owl-prev{
+  display: none;
+}
